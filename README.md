@@ -2,6 +2,24 @@
 
 This is a xaringan repository to produce Nottinghamshire Healthcare NHS Foundation Trust template slides. 
 
+### Viewing xaringan slides whilst building
+
+Xaringan slides can be viewed in the viewer (in the bottom right hand of R Studio) live by typing
+
+```
+xaringan::inf_mr()
+```
+
+into the console. Any writing will appear automatically but for some other things, like adding images, once saved from the editor these update in the viewer. Knitting the document is also possible even with inf_mr() in use.
+
+To stop (a message will appear with this information in the console), type
+
+``` 
+servr::daemon_stop(1)
+```
+
+or restart the R session with <kbd> Ctrl + Shift + F10 </kbd>. Note that if more than one session of inf_mr() has been started the daemon_stop() may be 2, or 3 and so on.
+
 ### Rendering
 
 The slides will render in GitHub from the main branch if the repository is set to GitHub Pages are enabled. Go to Settings:
