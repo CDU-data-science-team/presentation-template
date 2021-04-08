@@ -45,9 +45,10 @@ https://cdu-data-science-team.github.io/presentation-template/index.html#1
 
 Also, xaringan allows for slides to appear within a webpage and retain their interactivity so they can be viewed in the page (no requirement to open in another page):
 
-<iframe src="https://cdu-data-science-team.github.io/presentation-template/index.html#1" width="600" height="400" loading="lazy" allowfullscreen></iframe> <script>fitvids('.shareagain', {players: 'iframe'});</script></br>
+<iframe src="https://cdu-data-science-team.github.io/presentation-template/index.html#1" width="600" height="400" loading="lazy" allowfullscreen></iframe> <script>fitvids('.shareagain', {players: 'iframe'});</script>
 
-Note that this code will appear in the README.md as raw html but it does show in the [README.html](https://cdu-data-science-team.github.io/presentation-template/readme.html.
+<br>
+Note that this code will appear in the README.md as raw html but it does show in the [README.html](https://cdu-data-science-team.github.io/presentation-template/readme.html).
 
 ### Finding raw code for README
 
