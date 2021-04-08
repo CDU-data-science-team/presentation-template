@@ -39,22 +39,13 @@ The slides have self_contained: true in the YAML so that just the html output ca
 
 ### Linking and using the embedded slides
 
-Xaringan slides can be embedded into urls. Using the GitHub link opens the slides in the web browser which is useful if resizing is required as opening the slides, as for Powerpoint, means the slides fill the whole screen.
+Xaringan slides can be embedded into urls. Using the GitHub link opens the slides in the web browser which is useful if resizing is required as opening the slides, as for PowerPoint, means the slides fill the whole screen.
 
 https://cdu-data-science-team.github.io/presentation-template/index.html#1
 
-Also, xaringan allows for slides to appear within a webpage and retain their interactivity so they can be viewed in the page (no requirement to open in another page):
+Also, xaringan allows for slides to appear within a web page and retain their interactivity so they can be viewed in the page (no requirement to open in another page). Note that this code will appear in the README.md as raw html but it does show in the [README.html](https://cdu-data-science-team.github.io/presentation-template/README.html).
 
 <iframe src="https://cdu-data-science-team.github.io/presentation-template/index.html#1" width="600" height="400" loading="lazy" allowfullscreen></iframe> <script>fitvids('.shareagain', {players: 'iframe'});</script>
-
-<br>
-Note that this code will appear in the README.md as raw html but it does show in the [README.html](https://cdu-data-science-team.github.io/presentation-template/readme.html).
-
-### Finding raw code for README
-
-Code for embedding the xaringan slides in a webpage is in the [README file](https://raw.githubusercontent.com/CDU-data-science-team/presentation-template/main/README.md) which is located by going to the README.md and then clicking on the Raw button:
-
-![](img/github-readme-raw.PNG)
 
 ## Acknowledgements
 
