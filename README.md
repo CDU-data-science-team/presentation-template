@@ -47,6 +47,8 @@ Also, xaringan allows for slides to appear within a webpage and retain their int
 
 <iframe src="https://cdu-data-science-team.github.io/presentation-template/index.html#1" width="600" height="400" loading="lazy" allowfullscreen></iframe> <script>fitvids('.shareagain', {players: 'iframe'});</script>
 
+Note that this code will appear in the README.md as raw html but it does render if the README is rendered to README.html.
+
 ### Finding raw code for README
 
 Code for embedding the xaringan slides in a webpage is in the [README file](https://raw.githubusercontent.com/CDU-data-science-team/presentation-template/main/README.md) which is located by going to the README.md and then clicking on the Raw button:
