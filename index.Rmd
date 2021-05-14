@@ -49,7 +49,7 @@ opts_chunk$set(echo = FALSE,
                fig.height = 4,
                dpi = 300,
                dev.args = list(type = "cairo"),
-               echo = TRUE,
+               eval = TRUE,
                warning = FALSE,
                message = FALSE,
                error = FALSE)
